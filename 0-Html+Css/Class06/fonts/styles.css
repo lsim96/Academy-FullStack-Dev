@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Doto";
+  src: url(Doto-Regular.ttf);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 25px;
+}
+
+html {
+  font-size: 25px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.doto-font {
+  font-family: "Doto", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+/* this is generally discouraged from usage */
+.relative-size {
+  font-size: larger;
+  text-transform: capitalize;
+  color: brown;
+  line-height: 2;
+}
+
+.container {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.rem-example {
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: line-through wavy red;
+}
+
+.paragraph {
+  font-size: 1.5em;
+  font-weight: 800;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.paragraph::first-line {
+  text-decoration: underline dotted red;
+}
+
+.align {
+  text-align: center;
+}
+
+.color-red {
+  color: red;
+}
+
+.vertically-aligned {
+  font-size: 1.3em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-align {
+  vertical-align: top;
+}
+
+.middle-align {
+  vertical-align: middle;
+}
+
+.bottom-align {
+  vertical-align: bottom;
+  text-shadow: 9px 4px 5px rgba(355, 12, 12, 0.85);
+}
+
+.middle-align::first-letter {
+  color: darkmagenta;
+  font-size: 50px;
+}

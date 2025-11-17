@@ -1,0 +1,22 @@
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  color: darkcyan;
+}
+
+a:hover {
+  color: black;
+}
+
+a:focus {
+  text-decoration: underline black;
+  color: deeppink;
+  font-size: 18px;
+}
+
+a:active {
+  font-size: 32px;
+}

@@ -1,0 +1,12 @@
+.box-margin {
+  border: 1px solid grey;
+  background-color: indianred;
+  margin: 20px;
+}
+
+.box-padding {
+  border: 1px solid grey;
+  background-color: darksalmon;
+  padding: 20px;
+  margin: 0 10px;
+}

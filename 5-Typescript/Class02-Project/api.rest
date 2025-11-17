@@ -1,0 +1,18 @@
+GET http://localhost:3005/
+
+###
+GET http://localhost:3005/api/products
+
+###
+
+GET http://localhost:3005/api/products/541597cc-2925-4732-b863-f1ab34841017
+
+###
+POST http://localhost:3005/api/products
+Content-Type:application/json
+
+{
+    "title": "Test Product",
+    "stock": 143,
+    "price": 99
+}

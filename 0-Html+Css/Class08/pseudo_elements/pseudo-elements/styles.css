@@ -1,0 +1,44 @@
+.title::after {
+  content: url(../pseudo_elements/Images/icon.png);
+}
+
+.title::before {
+  content: url(https://www.pinterest.com/pin/dislike-thumb-free-vector-icons-designed-by-freepik--536913586803584367/);
+}
+
+#first-paragraph::selection {
+  background-color: chartreuse;
+}
+#first-paragraph::first-letter {
+  font-size: xx-large;
+  color: blue;
+}
+
+#second-paragraph::first-line {
+  color: tomato;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#third-paragraph::first-letter {
+  color: coral;
+  font-size: xx-large;
+  font-family: cursive;
+}
+
+h2::before {
+  content: "Web development";
+  background-color: crimson;
+  padding-right: 10px;
+}
+
+h2::after {
+  content: "(g1)";
+  background-color: indianred;
+  padding-left: 10px;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
